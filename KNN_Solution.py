@@ -293,8 +293,6 @@ solve_question(5, nephritis_5, 8)
 poker_train = np.loadtxt('poker-hand-training.txt', dtype= None, delimiter=',', encoding="utf-8-sig")
 poker_test =  np.loadtxt('poker-hand-testing.txt', dtype= None, delimiter=',', encoding="utf-8-sig")
 
-# poker_train = np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/poker_hand_training2.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
-# poker_test= np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/poker_hand_testing2.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
 
 Min = 1
 Max_num = 13
