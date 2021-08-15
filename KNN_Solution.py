@@ -6,7 +6,7 @@ np.set_printoptions(precision=4, linewidth=160)
 #********************************************** QUESTION 1 **********************************************#
 
 university_train = np.genfromtxt('KNN_Q1_Train.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
-university_test= np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/KNN_Q1_Test.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
+university_test= np.genfromtxt('KNN_Q1_Test.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
 university_train = np.array(university_train)
 
 def fetcher(list_of_tups, ind):
@@ -134,8 +134,8 @@ solve_question("San Jose", san_jose, 4)
 
 #**********************************************QUESTION 2**********************************************#
 
-patient_train = np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/KNN_Q2_Train.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
-patient_test= np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/KNN_Q2_Test.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
+patient_train = np.genfromtxt('KNN_Q2_Train.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
+patient_test= np.genfromtxt('KNN_Q2_Test.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
 patient_train = np.array(patient_train)
 
 
@@ -290,8 +290,8 @@ solve_question(5, nephritis_5, 8)
 
 #********************************************** QUESTION 3 **********************************************#
 
-poker_train = np.loadtxt('/Users/aneikablake/dev/4DM3/Assignment 2/poker-hand-training.txt', dtype= None, delimiter=',', encoding="utf-8-sig")
-poker_test =  np.loadtxt('/Users/aneikablake/dev/4DM3/Assignment 2/poker-hand-testing.txt', dtype= None, delimiter=',', encoding="utf-8-sig")
+poker_train = np.loadtxt('poker-hand-training.txt', dtype= None, delimiter=',', encoding="utf-8-sig")
+poker_test =  np.loadtxt('poker-hand-testing.txt', dtype= None, delimiter=',', encoding="utf-8-sig")
 
 # poker_train = np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/poker_hand_training2.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
 # poker_test= np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/poker_hand_testing2.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
