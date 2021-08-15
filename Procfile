@@ -1,1 +1,1 @@
-KNN: python KNN_Solution.py
+worker: python KNN_Solution.py
