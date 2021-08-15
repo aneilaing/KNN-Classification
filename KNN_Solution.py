@@ -5,7 +5,7 @@ np.set_printoptions(precision=4, linewidth=160)
 
 #********************************************** QUESTION 1 **********************************************#
 
-university_train = np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/KNN_Q1_Train.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
+university_train = np.genfromtxt('KNN_Q1_Train.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
 university_test= np.genfromtxt('/Users/aneikablake/dev/4DM3/Assignment 2/KNN_Q1_Test.csv', dtype= None, delimiter=',', encoding="utf-8-sig")
 university_train = np.array(university_train)
 
